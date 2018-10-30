@@ -3,7 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <title>Thermostat</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="src/thermostat.js"></script>
+<script src="src/interface.js"></script>
 <style media=screen>
 
   body {
@@ -31,6 +33,18 @@
     width: 50%;
   }
 
+  .High {
+    color: red;
+  }
+
+  .Medium {
+    color: black;
+  }
+
+  .Low {
+    color: green;
+  }
+
 </style>
 
 </head>
@@ -38,12 +52,12 @@
 <body>
 
 <div class="Thermostat">
-  <li><span id=temperature>Temperature: 20</span>&#8451;</li>
+  <li>Temperature: <span id=temperature></span>&#8451;</li>
   <li><input type="button" value=Up id="temp_up"></input></li>
   <li><input type="button" value=Down id="temp_down"></input></li>
-  <li><input type="button" value="Switch Mode" id="switchMode"></input></li>
+  <li><input type="button" value="Switch Mode" id="switch_mode"></input></li>
   <li>Power Saver: <span id=powermode>ON</span></li>
-  <li>Energy Usage: <span id="energyusage">Low</span></li>
+  <li>Energy Usage: <span id="energy_usage">Low</span></li>
   <li><input type="button" value=Reset id="reset"></input></li>
 </div>
 
