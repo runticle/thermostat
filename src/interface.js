@@ -44,9 +44,12 @@ $(document).ready(function() {
       var token = '&appid=a3d9eb01d4de82b9b8d0849ef604dbed';
       var units = '&units=metric';
       $.get(url + token + units, function(data) {
-        $('#current-temperature').text(data.main.temp);
+        iconcode = data.weather[0].icon
+        var iconurl = "http://openweathermap.org/img/w/" + iconcode + ".png";
+        $('#current-temperature').text(Math.round(data.main.temp));
         $('#location').text(data.name);
-
+        $('#weather_description').text(data.weather[0].description);
+        $('#wicon').attr("src", iconurl);
       });
     };
 

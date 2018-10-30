@@ -1,17 +1,16 @@
 
-  body {
-    margin: auto;
-    width: 60%;
+* {
+-webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+        box-sizing: border-box;
+  }
+
+body {
+    margin: 0 auto;
+    width: 90%;
     background-color: #ABACAB;
-    font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
-  }
-
-  span {
-    margin: auto 0;
-  }
-
-  input {
-    margin: auto 0;
+    font: 250 24px/1.5 Helvetica, Verdana, sans-serif;
+    margin-top: 5%;
   }
 
   section {
@@ -23,9 +22,24 @@
     list-style-type: none;
   }
 
+  #location {
+    font-size: 30px;
+    font-weight: 100;
+  }
+
   .Thermostat {
-    margin: auto;
-    width: 50%;
+    margin: 0 auto;
+    width: 30%;
+  }
+
+  .weather {
+    width: 30%;
+    float: left;
+  }
+
+  .fun {
+    width: 30%;
+    float: right;
   }
 
   .High {
