@@ -1,0 +1,22 @@
+body {
+  margin: auto;
+  width: 60%;
+}
+
+span {
+  margin:auto 0;
+}
+
+input {
+  margin:auto 0;
+}
+
+li {
+  text-align: center;
+  list-style-type: none;
+}
+
+.Thermostat {
+  margin: auto;
+  width: 50%;
+}

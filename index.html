@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Thermostat</title>
+<script src="src/thermostat.js"></script>
+<style media=screen>
+
+  body {
+    margin: auto;
+    width: 60%;
+    background-color: #ABACAB;
+    font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+  }
+
+  span {
+    margin:auto 0;
+  }
+
+  input {
+    margin:auto 0;
+  }
+
+  li {
+    text-align: center;
+    list-style-type: none;
+  }
+
+  .Thermostat {
+    margin: auto;
+    width: 50%;
+  }
+
+</style>
+
+</head>
+
+<body>
+
+<div class="Thermostat">
+  <li><span id=temperature>Temperature: 20</span>&#8451;</li>
+  <li><input type="button" value=Up id="temp_up"></input></li>
+  <li><input type="button" value=Down id="temp_down"></input></li>
+  <li><input type="button" value="Switch Mode" id="switchMode"></input></li>
+  <li>Power Saver: <span id=powermode>ON</span></li>
+  <li>Energy Usage: <span id="energyusage">Low</span></li>
+  <li><input type="button" value=Reset id="reset"></input></li>
+</div>
+
+
+
+</body>
+
+</html>
