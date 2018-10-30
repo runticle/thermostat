@@ -6,58 +6,19 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="src/thermostat.js"></script>
 <script src="src/interface.js"></script>
-<style media=screen>
-
-  body {
-    margin: auto;
-    width: 60%;
-    background-color: #ABACAB;
-    font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
-  }
-
-  span {
-    margin:auto 0;
-  }
-
-  input {
-    margin:auto 0;
-  }
-
-  section {
-    text-align: center;
-  }
-
-  li {
-    text-align: center;
-    list-style-type: none;
-  }
-
-  .Thermostat {
-    margin: auto;
-    width: 50%;
-  }
-
-  .High {
-    color: red;
-  }
-
-  .Medium {
-    color: black;
-  }
-
-  .Low {
-    color: green;
-  }
-
-</style>
+<link rel="stylesheet" type="text/css" href="style/index.css">
 
 </head>
 
 <body>
 
-<section>
-  <h1>Current temperature in <span id=location></span>: <span id="current-temperature"></span></h1>
-</section>
+  <section>
+    <h1>Current temperature in <span id=location></span>: <span id="current-temperature"></span>&#8451;</h1>
+    <form id="select-city">
+      <input id="current-city" type="text" placeholder="Enter a city"></input>
+      <input type="submit"></input>
+    </form>
+  </section>
 
 <div class="Thermostat">
   <li>Temperature: <span id=temperature></span>&#8451;</li>

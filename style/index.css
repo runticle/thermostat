@@ -1,0 +1,41 @@
+
+  body {
+    margin: auto;
+    width: 60%;
+    background-color: #ABACAB;
+    font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+  }
+
+  span {
+    margin: auto 0;
+  }
+
+  input {
+    margin: auto 0;
+  }
+
+  section {
+    text-align: center;
+  }
+
+  li {
+    text-align: center;
+    list-style-type: none;
+  }
+
+  .Thermostat {
+    margin: auto;
+    width: 50%;
+  }
+
+  .High {
+    color: red;
+  }
+
+  .Medium {
+    color: black;
+  }
+
+  .Low {
+    color: green;
+  }
