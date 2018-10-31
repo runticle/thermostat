@@ -7,11 +7,17 @@
 <script src="src/thermostat.js"></script>
 <script src="src/interface.js"></script>
 <link rel="stylesheet" type="text/css" href="style/index.css">
+<link rel="icon" type="image/x-icon" href="public/favicon.png">
 </head>
 
 <body>
 
+<section class=climate_change>
+  <li>climate change is gonna kill us all! Turn down the temppp</li>
+</section>
+
 <section class=weather>
+  Current Weather
   <li id=location></li>
   <li>Temperature: <span id="current-temperature"></span>&#8451;</li>
   <li id='weather_description'></li>
@@ -23,6 +29,7 @@
 </section>
 
 <section class="Thermostat">
+  Thermostat Controller
   <li>Temperature: <span id=temperature></span>&#8451;</li>
   <li><input type="button" value=+ id="temp_up"></input>
       <input type="button" value=- id="temp_down"></input></li>
@@ -32,9 +39,6 @@
   <li><input type="button" value=Reset id="reset"></input></li>
 </section>
 
-<section class=fun>
-
-</section>
 
 
 </body>

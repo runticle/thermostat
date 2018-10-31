@@ -1,16 +1,24 @@
 
-* {
--webkit-box-sizing: border-box;
-   -moz-box-sizing: border-box;
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
         box-sizing: border-box;
   }
 
-body {
+  body {
     margin: 0 auto;
-    width: 90%;
+    width: 80%;
     background-color: #ABACAB;
     font: 250 24px/1.5 Helvetica, Verdana, sans-serif;
     margin-top: 5%;
+  }
+
+  input[type=text] {
+    background-color: transparent;
+    border-width: 2px;
+    border-color: grey;
+    border-radius: 5px;
+    width: 50%;
   }
 
   section {
@@ -28,7 +36,7 @@ body {
   }
 
   .Thermostat {
-    margin: 0 auto;
+    float: right;
     width: 30%;
   }
 
@@ -37,9 +45,11 @@ body {
     float: left;
   }
 
-  .fun {
-    width: 30%;
-    float: right;
+  .climate_change {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
   }
 
   .High {
