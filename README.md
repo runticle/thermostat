@@ -18,8 +18,8 @@ Woohoo!
 
 Currently the powerSaver mode is not updating on the client side after the GET request.
 
-## Screenshots 
+## Screenshots
 
-![Image of index]('/images/thermostat_index.png')
+![Image of index](/images/thermostat_index.png)
 
-![Image of server]('/images/thermostat_server.png')
+![Image of server](/images/thermostat_server.png)
