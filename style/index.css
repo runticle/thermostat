@@ -8,17 +8,23 @@
   body {
     margin: 0 auto;
     width: 80%;
-    background-color: #ABACAB;
+    background-color: #C0D3C5;
     font: 250 24px/1.5 Helvetica, Verdana, sans-serif;
     margin-top: 5%;
   }
 
-  input[type=text] {
-    background-color: transparent;
-    border-width: 2px;
-    border-color: grey;
-    border-radius: 5px;
-    width: 50%;
+  input {
+    background-color: #D1E5E1;
+    border: none;
+    border-radius: 15px;
+    color: #ABACAB;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
   }
 
   section {
@@ -37,11 +43,11 @@
 
   .Thermostat {
     float: right;
-    width: 30%;
+    width: 40%;
   }
 
   .weather {
-    width: 30%;
+    width: 40%;
     float: left;
   }
 

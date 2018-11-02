@@ -1,4 +1,4 @@
-var Thermostat = function () {
+function Thermostat () {
   this.temp = 20
   this.powerSaver = true
   this.MIN_TEMPERATURE = 10
